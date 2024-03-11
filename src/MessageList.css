@@ -1,0 +1,31 @@
+.message-list {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   
+   .message-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem 0;
+   }
+   
+   .message-item:last-child {
+    border-bottom: none;
+   }
+   
+   .message-sender {
+    font-weight: bold;
+    color: #343a40;
+   }
+   
+   .message-text {
+    color: #495057;
+   }
+   
+   .message-date {
+    font-size: 0.8rem;
+    color: #6c757d;
+   }
